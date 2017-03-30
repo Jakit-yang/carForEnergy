@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		502029821E8D0ACC0085609C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 502029811E8D0ACC0085609C /* main.m */; };
+		502029851E8D0ACC0085609C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 502029841E8D0ACC0085609C /* AppDelegate.m */; };
+		502029881E8D0ACC0085609C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502029871E8D0ACC0085609C /* ViewController.m */; };
+		5020298B1E8D0ACC0085609C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502029891E8D0ACC0085609C /* Main.storyboard */; };
+		5020298D1E8D0ACC0085609C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5020298C1E8D0ACC0085609C /* Assets.xcassets */; };
+		502029901E8D0ACC0085609C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5020298E1E8D0ACC0085609C /* LaunchScreen.storyboard */; };
+		5020299B1E8D0ACC0085609C /* carForEnergyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5020299A1E8D0ACC0085609C /* carForEnergyTests.m */; };
+		502029A61E8D0ACC0085609C /* carForEnergyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 502029A51E8D0ACC0085609C /* carForEnergyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		502029971E8D0ACC0085609C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 502029751E8D0ACC0085609C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5020297C1E8D0ACC0085609C;
+			remoteInfo = carForEnergy;
+		};
+		502029A21E8D0ACC0085609C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 502029751E8D0ACC0085609C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5020297C1E8D0ACC0085609C;
+			remoteInfo = carForEnergy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5020297D1E8D0ACC0085609C /* carForEnergy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carForEnergy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		502029811E8D0ACC0085609C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		502029831E8D0ACC0085609C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		502029841E8D0ACC0085609C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		502029861E8D0ACC0085609C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		502029871E8D0ACC0085609C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5020298A1E8D0ACC0085609C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5020298C1E8D0ACC0085609C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5020298F1E8D0ACC0085609C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		502029911E8D0ACC0085609C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		502029961E8D0ACC0085609C /* carForEnergyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carForEnergyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5020299A1E8D0ACC0085609C /* carForEnergyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carForEnergyTests.m; sourceTree = "<group>"; };
+		5020299C1E8D0ACC0085609C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		502029A11E8D0ACC0085609C /* carForEnergyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carForEnergyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		502029A51E8D0ACC0085609C /* carForEnergyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carForEnergyUITests.m; sourceTree = "<group>"; };
+		502029A71E8D0ACC0085609C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5020297A1E8D0ACC0085609C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		502029931E8D0ACC0085609C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5020299E1E8D0ACC0085609C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		502029741E8D0ACC0085609C = {
+			isa = PBXGroup;
+			children = (
+				5020297F1E8D0ACC0085609C /* carForEnergy */,
+				502029991E8D0ACC0085609C /* carForEnergyTests */,
+				502029A41E8D0ACC0085609C /* carForEnergyUITests */,
+				5020297E1E8D0ACC0085609C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5020297E1E8D0ACC0085609C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5020297D1E8D0ACC0085609C /* carForEnergy.app */,
+				502029961E8D0ACC0085609C /* carForEnergyTests.xctest */,
+				502029A11E8D0ACC0085609C /* carForEnergyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5020297F1E8D0ACC0085609C /* carForEnergy */ = {
+			isa = PBXGroup;
+			children = (
+				502029831E8D0ACC0085609C /* AppDelegate.h */,
+				502029841E8D0ACC0085609C /* AppDelegate.m */,
+				502029861E8D0ACC0085609C /* ViewController.h */,
+				502029871E8D0ACC0085609C /* ViewController.m */,
+				502029891E8D0ACC0085609C /* Main.storyboard */,
+				5020298C1E8D0ACC0085609C /* Assets.xcassets */,
+				5020298E1E8D0ACC0085609C /* LaunchScreen.storyboard */,
+				502029911E8D0ACC0085609C /* Info.plist */,
+				502029801E8D0ACC0085609C /* Supporting Files */,
+			);
+			path = carForEnergy;
+			sourceTree = "<group>";
+		};
+		502029801E8D0ACC0085609C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				502029811E8D0ACC0085609C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		502029991E8D0ACC0085609C /* carForEnergyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5020299A1E8D0ACC0085609C /* carForEnergyTests.m */,
+				5020299C1E8D0ACC0085609C /* Info.plist */,
+			);
+			path = carForEnergyTests;
+			sourceTree = "<group>";
+		};
+		502029A41E8D0ACC0085609C /* carForEnergyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				502029A51E8D0ACC0085609C /* carForEnergyUITests.m */,
+				502029A71E8D0ACC0085609C /* Info.plist */,
+			);
+			path = carForEnergyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5020297C1E8D0ACC0085609C /* carForEnergy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502029AA1E8D0ACC0085609C /* Build configuration list for PBXNativeTarget "carForEnergy" */;
+			buildPhases = (
+				502029791E8D0ACC0085609C /* Sources */,
+				5020297A1E8D0ACC0085609C /* Frameworks */,
+				5020297B1E8D0ACC0085609C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = carForEnergy;
+			productName = carForEnergy;
+			productReference = 5020297D1E8D0ACC0085609C /* carForEnergy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		502029951E8D0ACC0085609C /* carForEnergyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502029AD1E8D0ACC0085609C /* Build configuration list for PBXNativeTarget "carForEnergyTests" */;
+			buildPhases = (
+				502029921E8D0ACC0085609C /* Sources */,
+				502029931E8D0ACC0085609C /* Frameworks */,
+				502029941E8D0ACC0085609C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				502029981E8D0ACC0085609C /* PBXTargetDependency */,
+			);
+			name = carForEnergyTests;
+			productName = carForEnergyTests;
+			productReference = 502029961E8D0ACC0085609C /* carForEnergyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		502029A01E8D0ACC0085609C /* carForEnergyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502029B01E8D0ACC0085609C /* Build configuration list for PBXNativeTarget "carForEnergyUITests" */;
+			buildPhases = (
+				5020299D1E8D0ACC0085609C /* Sources */,
+				5020299E1E8D0ACC0085609C /* Frameworks */,
+				5020299F1E8D0ACC0085609C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				502029A31E8D0ACC0085609C /* PBXTargetDependency */,
+			);
+			name = carForEnergyUITests;
+			productName = carForEnergyUITests;
+			productReference = 502029A11E8D0ACC0085609C /* carForEnergyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		502029751E8D0ACC0085609C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "新能源";
+				TargetAttributes = {
+					5020297C1E8D0ACC0085609C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					502029951E8D0ACC0085609C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5020297C1E8D0ACC0085609C;
+					};
+					502029A01E8D0ACC0085609C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5020297C1E8D0ACC0085609C;
+					};
+				};
+			};
+			buildConfigurationList = 502029781E8D0ACC0085609C /* Build configuration list for PBXProject "carForEnergy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 502029741E8D0ACC0085609C;
+			productRefGroup = 5020297E1E8D0ACC0085609C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5020297C1E8D0ACC0085609C /* carForEnergy */,
+				502029951E8D0ACC0085609C /* carForEnergyTests */,
+				502029A01E8D0ACC0085609C /* carForEnergyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5020297B1E8D0ACC0085609C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502029901E8D0ACC0085609C /* LaunchScreen.storyboard in Resources */,
+				5020298D1E8D0ACC0085609C /* Assets.xcassets in Resources */,
+				5020298B1E8D0ACC0085609C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		502029941E8D0ACC0085609C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5020299F1E8D0ACC0085609C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		502029791E8D0ACC0085609C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502029881E8D0ACC0085609C /* ViewController.m in Sources */,
+				502029851E8D0ACC0085609C /* AppDelegate.m in Sources */,
+				502029821E8D0ACC0085609C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		502029921E8D0ACC0085609C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5020299B1E8D0ACC0085609C /* carForEnergyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5020299D1E8D0ACC0085609C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502029A61E8D0ACC0085609C /* carForEnergyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		502029981E8D0ACC0085609C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5020297C1E8D0ACC0085609C /* carForEnergy */;
+			targetProxy = 502029971E8D0ACC0085609C /* PBXContainerItemProxy */;
+		};
+		502029A31E8D0ACC0085609C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5020297C1E8D0ACC0085609C /* carForEnergy */;
+			targetProxy = 502029A21E8D0ACC0085609C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		502029891E8D0ACC0085609C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5020298A1E8D0ACC0085609C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5020298E1E8D0ACC0085609C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5020298F1E8D0ACC0085609C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		502029A81E8D0ACC0085609C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		502029A91E8D0ACC0085609C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		502029AB1E8D0ACC0085609C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = carForEnergy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newEnergy.carForEnergy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		502029AC1E8D0ACC0085609C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = carForEnergy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newEnergy.carForEnergy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		502029AE1E8D0ACC0085609C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = carForEnergyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newEnergy.carForEnergyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/carForEnergy.app/carForEnergy";
+			};
+			name = Debug;
+		};
+		502029AF1E8D0ACC0085609C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = carForEnergyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newEnergy.carForEnergyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/carForEnergy.app/carForEnergy";
+			};
+			name = Release;
+		};
+		502029B11E8D0ACC0085609C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = carForEnergyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newEnergy.carForEnergyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = carForEnergy;
+			};
+			name = Debug;
+		};
+		502029B21E8D0ACC0085609C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = carForEnergyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newEnergy.carForEnergyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = carForEnergy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		502029781E8D0ACC0085609C /* Build configuration list for PBXProject "carForEnergy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502029A81E8D0ACC0085609C /* Debug */,
+				502029A91E8D0ACC0085609C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		502029AA1E8D0ACC0085609C /* Build configuration list for PBXNativeTarget "carForEnergy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502029AB1E8D0ACC0085609C /* Debug */,
+				502029AC1E8D0ACC0085609C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		502029AD1E8D0ACC0085609C /* Build configuration list for PBXNativeTarget "carForEnergyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502029AE1E8D0ACC0085609C /* Debug */,
+				502029AF1E8D0ACC0085609C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		502029B01E8D0ACC0085609C /* Build configuration list for PBXNativeTarget "carForEnergyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502029B11E8D0ACC0085609C /* Debug */,
+				502029B21E8D0ACC0085609C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 502029751E8D0ACC0085609C /* Project object */;
+}
