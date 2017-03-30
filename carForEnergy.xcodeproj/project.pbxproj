@@ -15,6 +15,7 @@
 		502029901E8D0ACC0085609C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5020298E1E8D0ACC0085609C /* LaunchScreen.storyboard */; };
 		5020299B1E8D0ACC0085609C /* carForEnergyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5020299A1E8D0ACC0085609C /* carForEnergyTests.m */; };
 		502029A61E8D0ACC0085609C /* carForEnergyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 502029A51E8D0ACC0085609C /* carForEnergyUITests.m */; };
+		50E9F4E41E8D234E0031BA66 /* MyHTTPMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E9F4E31E8D234E0031BA66 /* MyHTTPMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		502029A11E8D0ACC0085609C /* carForEnergyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carForEnergyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		502029A51E8D0ACC0085609C /* carForEnergyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carForEnergyUITests.m; sourceTree = "<group>"; };
 		502029A71E8D0ACC0085609C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E9F4E21E8D234E0031BA66 /* MyHTTPMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHTTPMethod.h; sourceTree = "<group>"; };
+		50E9F4E31E8D234E0031BA66 /* MyHTTPMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHTTPMethod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		502029741E8D0ACC0085609C = {
 			isa = PBXGroup;
 			children = (
+				50E9F4E11E8D23230031BA66 /* utility */,
 				5020297F1E8D0ACC0085609C /* carForEnergy */,
 				502029991E8D0ACC0085609C /* carForEnergyTests */,
 				502029A41E8D0ACC0085609C /* carForEnergyUITests */,
@@ -138,6 +142,15 @@
 				502029A71E8D0ACC0085609C /* Info.plist */,
 			);
 			path = carForEnergyUITests;
+			sourceTree = "<group>";
+		};
+		50E9F4E11E8D23230031BA66 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				50E9F4E21E8D234E0031BA66 /* MyHTTPMethod.h */,
+				50E9F4E31E8D234E0031BA66 /* MyHTTPMethod.m */,
+			);
+			name = utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E9F4E41E8D234E0031BA66 /* MyHTTPMethod.m in Sources */,
 				502029881E8D0ACC0085609C /* ViewController.m in Sources */,
 				502029851E8D0ACC0085609C /* AppDelegate.m in Sources */,
 				502029821E8D0ACC0085609C /* main.m in Sources */,
@@ -509,6 +523,7 @@
 				502029AC1E8D0ACC0085609C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		502029AD1E8D0ACC0085609C /* Build configuration list for PBXNativeTarget "carForEnergyTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +532,7 @@
 				502029AF1E8D0ACC0085609C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		502029B01E8D0ACC0085609C /* Build configuration list for PBXNativeTarget "carForEnergyUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +541,7 @@
 				502029B21E8D0ACC0085609C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
