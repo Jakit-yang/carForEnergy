@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "BaseViewController.h"
+#import "HomeViewController.h"
+#import "LeftViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    LeftViewController *leftDrawer = [[LeftViewController alloc] init];
+    HomeViewController * center = [[HomeViewController alloc] init];
+    
+    BaseViewController * drawerController = [[BaseViewController alloc]
+                                             initWithCenterViewController:center leftDrawerViewController:leftDrawer];
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = drawerController;
+    [self.window makeKeyWindow];
     return YES;
 }
 
