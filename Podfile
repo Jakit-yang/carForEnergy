@@ -9,4 +9,5 @@ pod 'MJRefresh'
 pod 'SDWebImage', '~>3.8'
 pod 'MBProgressHUD', '~> 1.0.0'
 pod 'IQKeyboardManager'
+pod 'Masonry'
 end

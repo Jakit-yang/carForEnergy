@@ -18,6 +18,7 @@
 		5036AB981E8DE6E60018DA3D /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5036AB971E8DE6E60018DA3D /* LeftViewController.m */; };
 		5036AB9B1E8DE7180018DA3D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5036AB9A1E8DE7180018DA3D /* BaseViewController.m */; };
 		50E9F4E41E8D234E0031BA66 /* MyHTTPMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E9F4E31E8D234E0031BA66 /* MyHTTPMethod.m */; };
+		E2B486D2D48566DD4383D594 /* libPods-carForEnergy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAFF6D33D3D99951D720830 /* libPods-carForEnergy.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EA81F4568BA03D449CDAE8F /* Pods-carForEnergy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carForEnergy.release.xcconfig"; path = "Pods/Target Support Files/Pods-carForEnergy/Pods-carForEnergy.release.xcconfig"; sourceTree = "<group>"; };
+		4DAFF6D33D3D99951D720830 /* libPods-carForEnergy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-carForEnergy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5020297D1E8D0ACC0085609C /* carForEnergy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carForEnergy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		502029811E8D0ACC0085609C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		502029831E8D0ACC0085609C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +64,7 @@
 		5036AB9C1E8DED7B0018DA3D /* carForEnergy.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carForEnergy.pch; sourceTree = "<group>"; };
 		50E9F4E21E8D234E0031BA66 /* MyHTTPMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHTTPMethod.h; sourceTree = "<group>"; };
 		50E9F4E31E8D234E0031BA66 /* MyHTTPMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHTTPMethod.m; sourceTree = "<group>"; };
+		D96A8A69FB7335FED9D9D67F /* Pods-carForEnergy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carForEnergy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-carForEnergy/Pods-carForEnergy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B486D2D48566DD4383D594 /* libPods-carForEnergy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2158D9A81855A92A001A3F02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DAFF6D33D3D99951D720830 /* libPods-carForEnergy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		502029741E8D0ACC0085609C = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +109,8 @@
 				502029991E8D0ACC0085609C /* carForEnergyTests */,
 				502029A41E8D0ACC0085609C /* carForEnergyUITests */,
 				5020297E1E8D0ACC0085609C /* Products */,
+				60765311E11DE48B6935E0F1 /* Pods */,
+				2158D9A81855A92A001A3F02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,6 +180,15 @@
 			name = utility;
 			sourceTree = "<group>";
 		};
+		60765311E11DE48B6935E0F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96A8A69FB7335FED9D9D67F /* Pods-carForEnergy.debug.xcconfig */,
+				2EA81F4568BA03D449CDAE8F /* Pods-carForEnergy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 502029AA1E8D0ACC0085609C /* Build configuration list for PBXNativeTarget "carForEnergy" */;
 			buildPhases = (
+				DC808B7628BAC98641D7628A /* [CP] Check Pods Manifest.lock */,
 				502029791E8D0ACC0085609C /* Sources */,
 				5020297A1E8D0ACC0085609C /* Frameworks */,
 				5020297B1E8D0ACC0085609C /* Resources */,
+				B4B37369A87ABC1203CAE206 /* [CP] Embed Pods Frameworks */,
+				B9478CA49999F8EBD7E131F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,6 +320,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B4B37369A87ABC1203CAE206 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-carForEnergy/Pods-carForEnergy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9478CA49999F8EBD7E131F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-carForEnergy/Pods-carForEnergy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC808B7628BAC98641D7628A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		502029791E8D0ACC0085609C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -389,6 +464,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/canForEnergy.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -436,6 +513,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/canForEnergy.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -452,10 +531,11 @@
 		};
 		502029AB1E8D0ACC0085609C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96A8A69FB7335FED9D9D67F /* Pods-carForEnergy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/carForEnergy/canForEnergy.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/canForEnergy.pch";
 				INFOPLIST_FILE = carForEnergy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.newEnergy.carForEnergy;
@@ -466,10 +546,11 @@
 		};
 		502029AC1E8D0ACC0085609C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA81F4568BA03D449CDAE8F /* Pods-carForEnergy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/carForEnergy/canForEnergy.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/canForEnergy.pch";
 				INFOPLIST_FILE = carForEnergy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.newEnergy.carForEnergy;
