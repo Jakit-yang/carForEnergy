@@ -17,6 +17,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    [self setShowsShadow:NO];
+    [self setRestorationIdentifier:@"MMDrawer"];
+    [self setMaximumRightDrawerWidth:200.0];
+    [self setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+    [self setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -26,7 +26,7 @@
                                              initWithCenterViewController:center leftDrawerViewController:leftDrawer];
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = drawerController;
-    [self.window makeKeyWindow];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
