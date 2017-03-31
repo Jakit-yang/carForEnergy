@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		502029821E8D0ACC0085609C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 502029811E8D0ACC0085609C /* main.m */; };
 		502029851E8D0ACC0085609C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 502029841E8D0ACC0085609C /* AppDelegate.m */; };
-		502029881E8D0ACC0085609C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502029871E8D0ACC0085609C /* ViewController.m */; };
+		502029881E8D0ACC0085609C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502029871E8D0ACC0085609C /* HomeViewController.m */; };
 		5020298B1E8D0ACC0085609C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502029891E8D0ACC0085609C /* Main.storyboard */; };
 		5020298D1E8D0ACC0085609C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5020298C1E8D0ACC0085609C /* Assets.xcassets */; };
 		502029901E8D0ACC0085609C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5020298E1E8D0ACC0085609C /* LaunchScreen.storyboard */; };
 		5020299B1E8D0ACC0085609C /* carForEnergyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5020299A1E8D0ACC0085609C /* carForEnergyTests.m */; };
 		502029A61E8D0ACC0085609C /* carForEnergyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 502029A51E8D0ACC0085609C /* carForEnergyUITests.m */; };
+		5036AB981E8DE6E60018DA3D /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5036AB971E8DE6E60018DA3D /* LeftViewController.m */; };
+		5036AB9B1E8DE7180018DA3D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5036AB9A1E8DE7180018DA3D /* BaseViewController.m */; };
 		50E9F4E41E8D234E0031BA66 /* MyHTTPMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E9F4E31E8D234E0031BA66 /* MyHTTPMethod.m */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +42,8 @@
 		502029811E8D0ACC0085609C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		502029831E8D0ACC0085609C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		502029841E8D0ACC0085609C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		502029861E8D0ACC0085609C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		502029871E8D0ACC0085609C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		502029861E8D0ACC0085609C /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		502029871E8D0ACC0085609C /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		5020298A1E8D0ACC0085609C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5020298C1E8D0ACC0085609C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5020298F1E8D0ACC0085609C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +54,10 @@
 		502029A11E8D0ACC0085609C /* carForEnergyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carForEnergyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		502029A51E8D0ACC0085609C /* carForEnergyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carForEnergyUITests.m; sourceTree = "<group>"; };
 		502029A71E8D0ACC0085609C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5036AB961E8DE6E60018DA3D /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		5036AB971E8DE6E60018DA3D /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		5036AB991E8DE7180018DA3D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		5036AB9A1E8DE7180018DA3D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		50E9F4E21E8D234E0031BA66 /* MyHTTPMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHTTPMethod.h; sourceTree = "<group>"; };
 		50E9F4E31E8D234E0031BA66 /* MyHTTPMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHTTPMethod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,8 +113,12 @@
 			children = (
 				502029831E8D0ACC0085609C /* AppDelegate.h */,
 				502029841E8D0ACC0085609C /* AppDelegate.m */,
-				502029861E8D0ACC0085609C /* ViewController.h */,
-				502029871E8D0ACC0085609C /* ViewController.m */,
+				5036AB991E8DE7180018DA3D /* BaseViewController.h */,
+				5036AB9A1E8DE7180018DA3D /* BaseViewController.m */,
+				502029861E8D0ACC0085609C /* HomeViewController.h */,
+				502029871E8D0ACC0085609C /* HomeViewController.m */,
+				5036AB961E8DE6E60018DA3D /* LeftViewController.h */,
+				5036AB971E8DE6E60018DA3D /* LeftViewController.m */,
 				502029891E8D0ACC0085609C /* Main.storyboard */,
 				5020298C1E8D0ACC0085609C /* Assets.xcassets */,
 				5020298E1E8D0ACC0085609C /* LaunchScreen.storyboard */,
@@ -287,7 +297,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				50E9F4E41E8D234E0031BA66 /* MyHTTPMethod.m in Sources */,
-				502029881E8D0ACC0085609C /* ViewController.m in Sources */,
+				5036AB9B1E8DE7180018DA3D /* BaseViewController.m in Sources */,
+				5036AB981E8DE6E60018DA3D /* LeftViewController.m in Sources */,
+				502029881E8D0ACC0085609C /* HomeViewController.m in Sources */,
 				502029851E8D0ACC0085609C /* AppDelegate.m in Sources */,
 				502029821E8D0ACC0085609C /* main.m in Sources */,
 			);
